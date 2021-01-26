@@ -1,0 +1,43 @@
+{
+  "bg": "https://lh3.googleusercontent.com/XxJKpRFTVmQZ_Ujg7cQI8dh4ZgDC3Pz3upNYXkqOgvGD4CAOtayD-4vWAILmbu0CQZ2bdTbGqpGRAPBOCLxby4opExfgHg3iB2oTAqsH1MZW1RfQEhMlO5vLPYaja3jQ7dxZg3Mk9hUWCu53jVxQ2SjRK5b7T3kEg-fUCF_F-Km6JiBaO_NH6rNGxP818SMXMTeox0m4cUOzc_Yv6ICb4AvmHXRozROmEoKQK9GldrZ6oqFTEHFqQBS9FVrtyg8RP71BP5qxd5mPIMt73_iZ32py9leqmupL28GQR93rSG7DKvqvnPkVrNizpJyr7iHqKRICOO6fpaKHzSe-iqjyEbe0JHyrr_d6N4dsf_545i8T5iMacTClwpJM6Is7q8nt6eh2YbqIbFG7h-8SOK7vW8ZSWLk0UVv6zOry-v7m-f4rH1YprDWoPck2gjSQWgIW5aaZFbr628kaQCxlCa6x0uYo8DrZOLIvVoEuxp742mEGnEEsY5fvCRGdQDK7R6sFLicr7Df2vWiCM-wvpeEAhhn6LlicoKB5nOuKriHqdZltodS2IbN48IGNbxpU16l5FJpIKHUO_1pMZ-XRrrTwJL6S_ndY4-gTDcwewJFixqUkDYiVtHydbv8Ud0A7jeL41dUDNXLt_U1ahLmzxY53FS0ulu96jbV-IaiDOvkE8bpvn15FVtKvLs7F4BN7rg=s625-no?authuser=0",
+  "title": "Quiz - Coronavírus (Covid-19)",
+  "description": "Além de testar seus conhecimentos, esse Quiz te imuniza com boa informação!",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Como fazer um seletor por id via CSS?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        ".elemento",
+        "*elemento",
+        "#elemento",
+        "%elemento"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "Como fazer um background gradiente com css?",
+      "description": "Faz tempo em haha",
+      "answer": 0,
+      "alternatives": [
+         "background: linear-gradient(#e66465, #9198e5);",
+         "background: gradient(#e66465, #9198e5);"
+      ]
+    }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#607d8b",
+      "secondary": "#ff8f00",
+      "mainBg": "#FFFFFF",
+      "contrastText": "#212121",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
