@@ -49,6 +49,20 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  li {
+    text-align: center;
+    margin-bottom: 8px;
+    padding: .2rem;
+    border-radius: 2px;
+    background: #607d8b;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
+  }
 `;
 
 export default Widget;

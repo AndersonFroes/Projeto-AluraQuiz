@@ -33,8 +33,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
-  console.log('retorno do useState', name, setName);
-
+  
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
@@ -51,18 +50,14 @@ export default function Home() {
             <form  onSubmit={function(infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio dor react');
-
-              // router manda para a próxima página
             }}
             >
               <input 
-                onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value);
-                  // state
-                  // name = infosDoEvento.target.value;
+                onChange={
+                  function (infosDoEvento) {
                   setName(infosDoEvento.target.value);
-                }}
+                }
+              }
                 placeholder="Fique Imunizado!" 
               />
 
@@ -76,8 +71,13 @@ export default function Home() {
 
         <Widget>
           <Widget.Content>
-        <h1>Quizes dos Alurinhas</h1>
-        <p>Aproveite e faça os Quizes dos Alurinhas para testar o seu conhecimento!</p>
+            <h1>Quizes dos Alurinhas</h1>
+            <p>Aproveite e faça os Quizes dos Alurinhas para testar o seu conhecimento!</p>
+              <ul>
+                  <li><a href="https://reactquiz.vercel.app/">React Quiz</a></li>
+                  <li><a href="https://greys-anatomy-quiz.m1lenarodrigues.vercel.app/">Greys Anatomy</a></li>
+                  <li><a href="https://brazucas-quiz.vercel.app/">Brazucas Quiz</a></li>
+              </ul>
           </Widget.Content>
         </Widget>
         <Footer />
