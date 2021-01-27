@@ -4,28 +4,108 @@
   "description": "Além de testar seus conhecimentos, esse Quiz te imuniza com boa informação!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://media.giphy.com/media/S5Das9VQdP6zwDFUlN/giphy.gif",
+      "title": "Tudo bem compartilhar objetos, pois o novo coronavírus não se transmite dessa forma?",
+      "description": "Nivel Amador I",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+         "Tudo bem SIM!",
+         "Não devemos compartilhar!"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/JRsY1oIVA7IetTkKVO/giphy.gif",
+      "title": "Não preciso me preocupar em higienizar as compras do mercado, afinal, eu mesmo peguei da prateleira com as mãos limpas.",
+      "description": "Nivel Amador II",
+      "answer": 1,
+      "alternatives": [
+         "Sem problemas, está limpinho!",
+         "Tem que Preocupar SIM!"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/G4ZsMMvoOmr5K/giphy.gif",
+      "title": "Quando tossir, a melhor coisa a se fazer é cobrir a boca com a mão ou usar o ante-braço?",
+      "description": "Nivel Amador III",
+      "answer": 1,
+      "alternatives": [
+         "Usar a mão.",
+         "Usar o ante-braço."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/JpSLpHo0z7inLuHuPQ/giphy.gif",
+      "title": "Se me sinto bem e tomo todos os cuidados, tem problema abraçar e beijar as pessoas que amo?",
+      "description": "Nivel Intermediario I",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Nananinanão, Não Pode!",
+         "Pode Abraçar, estou de mascará"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l49JSA8LdkRRESVnq/giphy.gif",
+      "title": "Os sintomas mais comuns da COVID-19 são: febre, tosse seca e cansaço?",
+      "description": "Nivel Intermediario II",
+      "answer": 0,
+      "alternatives": [
+         "Isso Mesmo!",
+         "Não, é Diarreia!!"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/MCAFTO4btHOaiNRO1k/giphy.gif",
+      "title": "É possível estar com a COVID-19 por até 14 dias antes de apresentar os sintomas?",
+      "description": "Nivel Intermediario III",
+      "answer": 1,
+      "alternatives": [
+         "Claro que Não",
+         "Verdade, Verdadeira!"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/LnQzqAI38S13cpu628/giphy.gif",
+      "title": "Fazer gargarejo com água morna, sal e vinagre previne infecção?",
+      "description": "Nivel Avançado I",
+      "answer": 0,
+      "alternatives": [
+         "Quem derá!",
+         "Verdade, Verdadeira!"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/ieJvw9r9yX9ltJ54de/giphy.gif",
+      "title": "Gatos também podem ser infectados?",
+      "description": "Nivel Avançado II",
+      "answer": 1,
+      "alternatives": [
+         "Animais não pegam!",
+         "Podem, mas não transmitem!"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/h45pDBwEdnmtThwroC/giphy.gif",
+      "title": "Usando máscara é possível ser infectado?",
+      "description": "Nivel Avançado III",
+      "answer": 1,
+      "alternatives": [
+         "Claro que não!",
+         "Pode sim!!"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/uR6JMOFCtLmXkcKOkG/giphy.gif",
+      "title": "A COVID-19 é mais perigosa para indivíduos acima dos 60 anos ou debilitados, portadores de doenças crônicas e crianças.",
+      "description": "Nivel Extra-Avançado I",
+      "answer": 0,
+      "alternatives": [
+         "Não! Criança Não!",
+         "Estão Todos Correto!"
       ]
     }
   ],
+
+
   "external": [
     ""
   ],

@@ -9,6 +9,8 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 
 //const BackgroundImage = styled.div`
@@ -19,7 +21,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 //background-repeat: no-repeat;
 //`;
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -52,19 +54,15 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
             }}
             >
-              <input 
-                onChange={
-                  function (infosDoEvento) {
-                  setName(infosDoEvento.target.value);
-                }
-              }
-                placeholder="Fique Imunizado!" 
+              <Input 
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Coloque seu nome e fique Imunizado!" 
+                value={name}
               />
-
-              <button type="submit" disable={name.length === 0}>
-                Eu sou &nbsp; 
-                {name}
-              </button>
+              <Button type="submit" disable={name.length === 0}>
+                { `Clique e jogue ${name}`} 
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
@@ -77,6 +75,7 @@ export default function Home() {
                   <li><a href="https://reactquiz.vercel.app/">React Quiz</a></li>
                   <li><a href="https://greys-anatomy-quiz.m1lenarodrigues.vercel.app/">Greys Anatomy</a></li>
                   <li><a href="https://brazucas-quiz.vercel.app/">Brazucas Quiz</a></li>
+                  <li><a href="https://quiz-cavaleiro-zodiaco.vercel.app/">Cavaleiros do Zodiaco</a></li>
               </ul>
           </Widget.Content>
         </Widget>
