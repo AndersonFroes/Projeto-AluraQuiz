@@ -1,7 +1,7 @@
 <h1 align="center">Coronavírus Quiz </h1>
 
 <h2 align="center"> Teste os seus conhecimentos sobre Coronavírus e aproveite e fique imunizado com boa informação!</h2>
-<img src="https://www.notion.so/Projetos-em-Andamento-952f34f9bf044a8ab0b2080992078c65#baf49e3a50d1428aab4918d360be5686" />
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/83522860-8504-4ab5-98ed-a4ec95d642c3/banner-github.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210128%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210128T175935Z&X-Amz-Expires=86400&X-Amz-Signature=577dd7d6ccaabbe6a59fa0ab5b0297276e877341a9a4ee73f3ef96350c991fe7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22banner-github.png%22" />
 
 <h4 align="center"> 
 	🚧 👷  Em construção...  🚧
