@@ -6,7 +6,6 @@ background-color: ${({ theme }) => theme.colors.secondary};
 color: ${({ theme }) => theme.colors.contrastText};
 border-radius: ${({ theme }) => theme.borderRadius};
 border: 0;
-
 width: 100%;
 padding: 10px 16px;
 font-weight: bold;
@@ -16,12 +15,10 @@ text-transform: uppercase;
 outline: 0;
 transition: .3s;
 cursor: pointer;
-
 &:hover,
 &:focus {
     opacity: .5s;
 }
-
 &:disabled {
     background-color: #979797;
     cursor: not-allowed;
@@ -29,7 +26,7 @@ cursor: pointer;
 `;
 
 Button.propTypes = {
-    type: PropTypes.oneOf (['submit', 'type', 'button']).isRequired,
+    type: PropTypes.oneOf(['submit', 'type', 'button']).isRequired,
     children: PropTypes.node.isRequired,
 };
 
