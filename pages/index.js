@@ -70,12 +70,9 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quizes dos Alurinhas</h1>
-            <p>Aproveite e faça os Quizes dos Alurinhas para testar o seu conhecimento!</p>
+            <p>Aproveite e faça os vários Quizes dos Alurinhas para testar o seu conhecimento!</p>
               <ul>
-                  <li><a href="https://reactquiz.vercel.app/">React Quiz</a></li>
-                  <li><a href="https://greys-anatomy-quiz.m1lenarodrigues.vercel.app/">Greys Anatomy</a></li>
-                  <li><a href="https://brazucas-quiz.vercel.app/">Brazucas Quiz</a></li>
-                  <li><a href="https://quiz-cavaleiro-zodiaco.vercel.app/">Cavaleiros do Zodiaco</a></li>
+                  <li><a href="https://aluraquiz-base.alura-challenges.vercel.app/contribuidores">Galeria de Quizes</a></li>
               </ul>
           </Widget.Content>
         </Widget>

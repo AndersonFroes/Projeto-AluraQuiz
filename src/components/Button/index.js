@@ -15,7 +15,6 @@ line-height: 1;
 text-transform: uppercase;
 outline: 0;
 transition: .3s;
-background-color: #ffb74d;
 cursor: pointer;
 
 &:hover,
@@ -30,7 +29,7 @@ cursor: pointer;
 `;
 
 Button.propTypes = {
-    type: PropTypes.oneOf ( [ 'submit', 'type', 'button']).isRequired,
+    type: PropTypes.oneOf (['submit', 'type', 'button']).isRequired,
     children: PropTypes.node.isRequired,
 };
 
