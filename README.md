@@ -21,6 +21,5 @@ Projeto desenvolvido durante a **IMERSÃO REACT NEXT.JS** oferecida pela [Alura]
  <p>Anderson Froes (SkullD)</p>
 </a>
 
-
 ## 💙  Agradecimentos
 Obrigado [Alura](https://www.alura.com.br) por disponibilizar esse conteúdo de maneira acessível a todos🚀.
