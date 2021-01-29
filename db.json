@@ -107,7 +107,9 @@
 
 
   "external": [
-    ""
+    "https://lotr-quiz.filipe1309.vercel.app/",
+    "https://quiz-pokemon.dashpunk.vercel.app/",
+    "https://aluraquiz.alnun.vercel.app/"
   ],
   "theme": {
     "colors": {

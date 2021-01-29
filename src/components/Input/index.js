@@ -12,30 +12,33 @@ const InputBase = styled.input`
     border-radius: ${({ theme }) => theme.borderRadius};
     outline: 0;
     margin-bottom: 25px;
-    &::-webkit-input-placeholder {
-        color: ${({ theme }) => theme.colors.primary};
+    ::placeholder { /* Chrome, Firefox, Opera, Safara 10.1+ */ 
+        color: ${({ theme }) => theme.colors.contratText}DD;
+        opacity: 1; /* Firefox */
     }
+
 `;
 
-export default function({onChange, placeholder, ...props}) {
+export default function Input({ onChange, placeholder, ...props}) {
     return (
         <div>
             <InputBase
-            onChange={onChange}
             placeholder={placeholder}
+            onChange={onChange}
+            // eslint-disable-next-line react/jsx-props-no-spreading
             {...props}
             />
         </div>
-    )
+    );
 }
 
-InputBase.defaultProps = {
-    value: ''
-}
+Input.defaultProps = {
+    value: '',
+};
 
-InputBase.propTypes = {
+Input.propTypes = {
     onChange: PropTypes.func.isRequired,
     placeholder: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired
-}
+};

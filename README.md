@@ -1,14 +1,10 @@
 <h1 align="center">Coronavírus Quiz </h1>
 
 <h2 align="center"> Teste os seus conhecimentos sobre Coronavírus e aproveite e fique imunizado com boa informação!</h2>
-<img src="https://www.notion.so/Projetos-em-Andamento-952f34f9bf044a8ab0b2080992078c65#baf49e3a50d1428aab4918d360be5686" />
-
-<h4 align="center"> 
-	🚧 👷  Em construção...  🚧
-</h4>
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/40ae89e6-42ad-4993-b1c0-7861eb43ef26/banner-github.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210129T172027Z&X-Amz-Expires=86400&X-Amz-Signature=d649a02c2a64c9586309875eeda40b2c316ebc90a1d9f034ecad11492029b601&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22banner-github.png%22" />
 
 ## 💬 Sobre o projeto
-Coronavírus - É um projeto feito para testar seus conhecimentos sobre o Coronavírus, e desafiar seus amigos.
+Coronavírus (Covid-19) Quiz - É um projeto feito para testar seus conhecimentos sobre o Coronavírus, e desafiar seus amigos.
 
 Projeto desenvolvido durante a **IMERSÃO REACT NEXT.JS** oferecida pela [Alura](https://www.alura.com.br).
 
