@@ -107,9 +107,11 @@
 
 
   "external": [
-    "https://lotr-quiz.filipe1309.vercel.app/",
-    "https://quiz-pokemon.dashpunk.vercel.app/",
-    "https://aluraquiz.alnun.vercel.app/"
+    "https://aluraquiz-base.renatofrancisco.vercel.app/",
+    "https://naruto-quiz.llofyy.vercel.app/",
+    "https://imersao-react-alura.tamirfaria.vercel.app/",
+    "https://imersao-react-nextjs-git-main.matheusbronca.vercel.app/",
+    "https://got-quiz.millenabomtempo.vercel.app/"
   ],
   "theme": {
     "colors": {
@@ -117,7 +119,7 @@
       "secondary": "#ff8f00",
       "mainBg": "#FFFFFF",
       "contrastText": "#212121",
-      "wrong": "#FF5722",
+      "wrong": "#f44336",
       "success": "#4CAF50"
     },
     "borderRadius": "4px"

@@ -36,6 +36,7 @@ const QuizContainer = styled.div`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
+  const filledName = name.length > 0;
 
   return (
     <QuizBackground backgroundImage={db.bg}>
@@ -64,8 +65,7 @@ export default function Home() {
             <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
-              router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
+              router.push(`/quiz?name=${name.toUpperCase()}`);
             }}
             >
               <Input
@@ -74,7 +74,7 @@ export default function Home() {
                 placeholder="Coloque o nome para ficar imunizado!"
                 value={name}
               />
-              <Button type="submit" disabled={name.length === 0}>
+              <Button type="submit" disabled={!filledName}>
                 {`BORA JOGAR ${name} ?`}
               </Button>
             </form>
@@ -93,6 +93,7 @@ export default function Home() {
         >
           <Widget.Content>
             <h1>Quizes dos Alura</h1>
+            <p>Gostou deste Quiz? Dá uma olhada no que o pessoal da Imersão React Next.js já fez:</p>
 
             <ul>
               {db.external.map((linkExterno) => {
@@ -106,7 +107,8 @@ export default function Home() {
                   <li key={linkExterno}>
                     <Widget.Topic
                       as={Link}
-                      href={`/quiz/${projectName}___${githubUser}`}
+                      href={filledName ? `/quiz/${projectName}___${githubUser}` : '/'}
+                      style={{ opacity: filledName ? 'unset' : 0.5, cursor: filledName ? 'pointer' : 'note-allowed' }}
                     >
                       {`${githubUser}/${projectName}`}
                     </Widget.Topic>
